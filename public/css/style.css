@@ -1,0 +1,138 @@
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+}
+
+header {
+  background: url(./images/background-img.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+span {
+  color: white;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 2rem;
+
+}
+
+h4 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+  
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+  }
+
+h4 {
+  color: white;
+}
+p {
+  color: white;
+}  
+
+.modal-content {
+  background-color: #212121;
+}
+
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+}
+
+
+/* pricing page */
+
+ 
+
+
+.card1 {
+  margin-top: 30px;
+}
+
+
+h5 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+#pricing-bg{
+    background: url(./images/headphones.jpeg);
+}
+
+/* label color */
+.input-field label {
+  color: #d500f9;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #d500f9;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #d500f9;
+  box-shadow: 0 1px 0 0 #d500f9;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #1b5e20;
+  box-shadow: 0 1px 0 0 #1b5e20;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #b71c1c;
+  box-shadow: 0 1px 0 0 #b71c1c;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #d500f9;
+}
+

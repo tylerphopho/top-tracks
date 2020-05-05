@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Music App</title>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<header>
+<nav class="nav-wrapper transparent">
+    <div class="container">
+        <ul class="left hide-on-med-and-down">
+            <li><a href="#about-modal" class="modal-trigger">About</a></li>
+            <li><a href="pricing.html" id="pricing">Pricing</a></li>
+            <li><a href="browse.html" id="browse">Browse</a></li>
+        </ul>
+        <a href="index.html" class="brand-logo center">Top Tracks</a>
+        <ul class="right hide-on-med-and-down">
+            <li><button class="btn-small white black-text modal-trigger" data-target="user-modal">Log In</button></li>
+        </ul>
+    </div>
+
+</header>
+        <div class="title">
+            <h1>No Ads. Be Happy.</h1>
+        </div>
+</nav>
+
+<!-- About Modal -->
+<div id="about-modal" class="modal">
+    <div class="modal-content">
+        <h4>About</h4>
+        <p>We wanted to make a music app that allows users to stream songs without ads and be able to add songs
+            to their profiles and save songs they like. With the work of Tyler Pho and Kevin Peguero we created 
+            something relative similiar to that.
+        </p>
+    </div>
+    <div class="modal-footer grey darken-4">
+    <div class="modal-close btn-flat white">Close</div></a>
+    </div>
+</div>
+
+<!-- User Modal -->
+<div id="user-modal" class="modal">
+    <div class="modal-content">
+        <h4>Log In</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="input-field col s12">
+                    <input type="text" class="validate" id="first_name">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12">
+                    <input type="text" class="validate" id="last_name">
+                    <label for="last_name">Last Name</label>
+                </div>
+                <div class="input-field col s12">
+                    <input type="text" class="validate" id="password">
+                    <label for="password">Password</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer grey darken-4">
+    <a href="#"><div class="modal-close btn-flat white">Login</div></a>
+    <div class="modal-close btn-flat white">Close</div></a>
+    </div>
+</div>
+
+
+<!-- Main Section -->
+<main>
+    <h2>Welcome</h2>
+    <p>Want to know the top tracks from the lastest years? This app allows you to stream and browse the top songs
+    from 2010-2019.  In addition to finding these you're able to like and save songs you like, you have the ability
+    to add and your favorite tracks.
+    </p>  
+</main>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./js/index.js"></script>
+</html>
