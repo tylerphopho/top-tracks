@@ -16,6 +16,10 @@ app.use(express.json());
 require("./routes/api-routes")(app);
 require("./routes/html-routes")(app);
 
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "./public/index.html"));
+  });
+
 
 db.sequelize.sync().then(function(){
     app.listen(PORT, function(){
